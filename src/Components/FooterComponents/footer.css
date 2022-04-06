@@ -1,0 +1,153 @@
+.footer-modal {
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+
+    padding: 50px 0px 50px 144px;
+
+    color: white;
+    background-color: #037bfe;
+}
+
+.footer-modal h1 {
+    font-weight: bolder;
+    font-size: 28px;
+
+    letter-spacing: 1px;
+}
+
+.footer-modal p {
+    font-weight: bold;
+
+    margin-top: 36px;
+
+    letter-spacing: .9px;
+}
+
+.footer-modal button {
+    margin-left: 240px;
+    height: 40px;
+
+    color: #037bfe;
+    font-weight: bold;
+
+    border-radius: 8px;
+}
+
+.footer-faq {
+    background-color: #f9f9fc;
+    text-align: center;
+
+    padding: 50px 0px 50px 0;
+    margin-left: -48px;
+}
+
+.footer-faq div h2 {
+    margin: 0;
+}
+
+.question-title {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.question-title img:hover {
+    cursor: pointer;
+}
+
+.question-title p:hover {
+    cursor: pointer;
+}
+
+.question-title p {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    margin-left: 12px;
+}
+
+.question-body p {
+    width: 80%;
+
+    text-align: left;
+
+    margin-left: 36px;
+
+    line-height: 2;
+}
+
+.title {
+    color: #037bfe;
+    font-size: 18px;
+}
+
+.subTitle {
+    font-weight: bolder;
+}
+
+.footer {
+    width: 100%;
+
+    padding-bottom: 24px;
+}
+
+.footerLink {
+    color: black;
+    text-decoration: none;
+
+    border-bottom: transparent solid 0.5px;
+
+    transition: .3s;
+
+    position: relative;
+}
+
+.footerLink:hover {
+    color: #287ce8;
+    text-decoration: none;
+}
+
+.footerLink:hover::before {
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+.footerLink::before {
+    content: '';
+
+    width: 70%;
+    height: 1px;
+
+    background-color: #287ce8;
+
+    position: absolute;
+
+    left: 15%;
+    bottom: -8px;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+.contact-text {
+    line-height: 1.9;
+}
+
+.footer-title {
+    font-size: 18px;
+}
+
+.footer-submenu {
+    padding: 0;
+
+    list-style: none;
+}
+
+.footer-submenu li {
+    margin-bottom: 12px;
+}

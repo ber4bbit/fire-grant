@@ -1,0 +1,97 @@
+.installation-advantages {
+    padding: 60px 0;
+
+    background-color: #f9f9fc;
+}
+
+.advantage-img {
+    background-color: #037bfd;
+
+    width: 46px;
+    padding: 6px 0;
+    text-align: center;
+
+    border-radius: 6px;
+}
+
+.advantage-text {
+    margin-top: 12px;
+}
+
+.installation-text {
+    padding: 60px 0;
+
+    font-weight: bolder;
+
+    background-color: #f6faff;
+}
+
+.competencies-container {
+    padding: 60px 0;
+}
+
+.competencies-title {
+    font-weight: bolder;
+
+
+}
+
+.competencies-title::before {
+    content: "Наши компетенции";
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    left: 30%;
+    top: -0.5em;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f6faff;
+    z-index: -1;
+}
+
+.competence-img {
+    width: 50px;
+}
+
+.competence-title {
+    color: #037bfd;
+    font-weight: bolder;
+    font-size: 16px;
+
+    line-height: 1.4;
+
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.competence-subtitle {
+    color: #037bfd;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 140%;
+    margin-bottom: 12px;
+}
+
+.competence-description {
+    font-size: 14px;
+
+    margin-bottom: 25px;
+}
+
+.installationModal-container {
+    border: 1px solid #037bfd;
+    border-radius: 12px;
+
+    text-align: center;
+
+    padding: 50px 0;
+}
+
+.installation-btn {
+    margin-top: 12px;
+
+    font-weight: bolder;
+}
