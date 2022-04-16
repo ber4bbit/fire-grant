@@ -7,12 +7,8 @@ import Footer from "./Components/FooterComponents";
 import PeriodicServices from "./Components/PeriodicServicesComponents";
 import Installation from "./Components/InstallationComponents";
 import About from "./Components/AboutComponents";
-// import Routescontainer from "./Components/RoutesContainer";
 
 function App() {
-
-  // const [flag, setFlag] = React.useState(false);
-  // setFlag={() => setFlag(true)}
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>

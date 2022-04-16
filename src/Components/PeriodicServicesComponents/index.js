@@ -19,7 +19,7 @@ const PeriodicServices = () => {
                 <p className="main-text">Периодические услуги для вашего бизнеса</p>
                 <p className="secondary-text">Вы можете заказать услуги наших первоклассных специалистов и 
                 получить безупречное решение задач, не прибегая к безлимитному сопровождению</p>
-                <button type="button" className="btn btn-primary periodic-button" data-toggle='modal' data-target='#exampleModal' >Оформмить заявку</button>
+                <button type="button" className="btn btn-primary periodic-button" data-toggle='modal' data-target='#periodicModal' >Оформмить заявку</button>
             </div>
             <section className="services">
                 <div className="container" style={{ paddingLeft: '0', marginLeft: '144px' }}>
@@ -33,7 +33,7 @@ const PeriodicServices = () => {
                                     заставим технику работать быстрее с помощью <br/>современных решений.</p>
                                     <p className="service-price">От 4000 ₽</p>
                                 </div>
-                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#exampleModal'>Оформить заявку</button>
+                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#notebookModal'>Оформить заявку</button>
                             </div>
                         </div>
                         <div className="col-xl-5 col-md-6">
@@ -47,7 +47,7 @@ const PeriodicServices = () => {
                                     сканировать в электронную почту<br/> или сетевую папку.</p>
                                     <p className="service-price">От 2000 ₽</p>
                                 </div>
-                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#exampleModal'>Оформить заявку</button>
+                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#printerModal'>Оформить заявку</button>
                             </div>
                         </div>
                         <div className="col-xl-5 col-md-6">
@@ -59,7 +59,7 @@ const PeriodicServices = () => {
                                     Интернета на всех компьютерах и мобильных устройствах в офисе.</p>
                                     <p className="service-price">От 2000 ₽</p>
                                 </div>
-                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#exampleModal'>Оформить заявку</button>
+                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#ethernetModal'>Оформить заявку</button>
                             </div>
                         </div>
                         <div className="col-xl-7 col-md-6">
@@ -71,7 +71,7 @@ const PeriodicServices = () => {
                                     компании, удаленный доступ к офису или <br/> туннелирование трафика.</p>
                                     <p className="service-price">От 6000 ₽</p>
                                 </div>
-                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#exampleModal'>Оформить заявку</button>
+                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#routerModal'>Оформить заявку</button>
                             </div>
                         </div>
                         <div className="col-xl-7 col-md-6">
@@ -84,7 +84,7 @@ const PeriodicServices = () => {
                                     звонки у мобильных сотрудников.</p>
                                     <p className="service-price">От 2000 ₽</p>
                                 </div>
-                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#exampleModal'>Оформить заявку</button>
+                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#phoneModal'>Оформить заявку</button>
                             </div>
                         </div>
                         <div className="col-xl-5 col-md-6">
@@ -96,7 +96,7 @@ const PeriodicServices = () => {
                                     почту для организаций и<br/> настроим на рабочих местах.</p>
                                     <p className="service-price">От 5000 ₽</p>
                                 </div>
-                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#exampleModal'>Оформить заявку</button>
+                                <button type="button" className="btn btn-primary service-button" data-toggle='modal' data-target='#emailModal'>Оформить заявку</button>
                             </div>
                         </div>
                         <div className="col-xl-5 col-md-6">

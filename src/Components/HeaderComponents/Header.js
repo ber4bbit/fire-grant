@@ -1,10 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
 
-import HeaderModal from './HeaderModal';
-
 import './header.css'
 import companyLogo from'./companyLogo.png'
+import logo from './logo.svg'
 
 class Header extends React.Component {
 
@@ -20,10 +19,9 @@ class Header extends React.Component {
     render() {
         return (
             <>
-            <HeaderModal/>
             <div className='header-container'>
                 <NavLink to='/'>
-                    <img src={companyLogo} alt='Here must be logo'style={{width: '76px', height: '120px', marginLeft: '144px'}}></img>
+                    <img src={logo} alt='Here must be logo' style={{width: '76px', height: '120px', marginLeft: '144px'}}></img>
                 </NavLink>
                 <nav className='header-container__nav-menu'>
                     <ul className='menu'>

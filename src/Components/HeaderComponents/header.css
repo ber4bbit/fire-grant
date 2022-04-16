@@ -29,6 +29,27 @@ body {
     transition: all .3s;
 }
 
+.header-container__about {
+    background-color: transparent;
+}
+
+.styledLink__about {
+    color: white !important;
+}
+
+.styledLink__about:hover {
+    color: white !important;
+}
+
+.styledLink__about::before {
+    background-color: white !important;
+}
+
+.customButton__about {
+    color: #287ce8 !important;
+    background-color: white !important;
+}
+
 .header-container__nav-menu {
     margin-left: 24px;
 }
