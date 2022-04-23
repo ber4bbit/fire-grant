@@ -2,53 +2,22 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import WOW from 'wowjs';
 
+import HeaderModal from '../Modals/HeaderModal';
+import PeriodicModal from "../Modals/PeriodicModal";
+
 import './footer.css';
 import companyLogo from '../HeaderComponents/companyLogo.png';
+import NoteBookModal from "../Modals/NoteBookModal";
+import PrinterModal from "../Modals/PrinterModal";
+import EthernetModal from "../Modals/EthernetModal";
+import RouterModal from "../Modals/RouterModal";
+import PhoneModal from "../Modals/PhoneModal";
+import EmailModal from "../Modals/EmailModal";
 
 class Footer extends React.Component {
 
     componentDidMount() {
-        new WOW.WOW().init();
-
-
-        
-            // document.querySelector('.header-container').classList.add('header-transparent');
-            // document.querySelector('.customButton').classList.add('button-transparent');
-            // document.querySelectorAll('.styledLink').forEach(element => {
-            //     element.classList.add('styledLink-transparent');
-            // });
-            // window.addEventListener('scroll', () => {
-            //     if (this.props.flag) {
-            //     let scrollDistance = window.scrollY;
-            //     let headerContainer = document.querySelector('.header-container');
-            //     let links = document.querySelectorAll('.styledLink');
-            //     let button = document.querySelector('.customButton');
-    
-    
-            //     if (scrollDistance >= 100) {
-            //         headerContainer.classList.remove('header-transparent');
-            //         button.classList.remove('button-transparent');
-            //         links.forEach(element => {
-            //             element.classList.remove('styledLink-transparent');
-            //         })
-            //     }
-            //     else {
-            //         headerContainer.classList.add('header-transparent');
-            //         button.classList.add('button-transparent');
-            //         links.forEach(element => {
-            //             element.classList.add('styledLink-transparent');
-            //         })
-            //     }
-            // } else {
-
-            //     document.querySelector('.header-container').classList.remove('header-transparent');
-            //     document.querySelector('.customButton').classList.remove('button-transparent');
-            //     document.querySelectorAll('.styledLink').forEach(element => {
-            //         element.classList.remove('styledLink-transparent');
-            //     });
-            // }
-            // })
-        
+        new WOW.WOW().init();        
     };
 
     render() {
@@ -89,6 +58,15 @@ class Footer extends React.Component {
                     </div>
                 </div>
             </div>
+            {/* Модальные окна */}
+            <HeaderModal/>
+            <PeriodicModal/>
+            <NoteBookModal/>
+            <PrinterModal/>
+            <EthernetModal/>
+            <RouterModal/>
+            <PhoneModal/>
+            <EmailModal/>
         </div>
         );
     }
