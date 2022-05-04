@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/fire-grant/static/css/main.e35827a3.css",
+    "main.js": "/fire-grant/static/js/main.02e46ac0.js",
+    "static/js/787.9891e9eb.chunk.js": "/fire-grant/static/js/787.9891e9eb.chunk.js",
+    "static/media/competenciesLogo.jpg": "/fire-grant/static/media/competenciesLogo.81fa9a1f63657297101e.jpg",
+    "static/media/aboutTop.jpg": "/fire-grant/static/media/aboutTop.3a26406e9f75033d1e2f.jpg",
+    "static/media/companyLogo.png": "/fire-grant/static/media/companyLogo.3a6d2f035e19f6f7473c.png",
+    "static/media/HelveticaNeueCyr-Thin.eot": "/fire-grant/static/media/HelveticaNeueCyr-Thin.78ca42543abd86ed3059.eot",
+    "static/media/HelveticaNeueCyr-Thin.ttf": "/fire-grant/static/media/HelveticaNeueCyr-Thin.e6e3a0ae52b2daefee86.ttf",
+    "static/media/logo.svg": "/fire-grant/static/media/logo.97f99978240f9ee9cab8631cf784f715.svg",
+    "static/media/HelveticaNeueCyr-Thin.woff": "/fire-grant/static/media/HelveticaNeueCyr-Thin.182674cb4a64e70eee46.woff",
+    "static/media/settingPC.svg": "/fire-grant/static/media/settingPC.e3dfa08494926142de19294b1e42db5b.svg",
+    "static/media/installAdv.svg": "/fire-grant/static/media/installAdv.695230e4a241fbc85101540ae7475828.svg",
+    "static/media/settingPhone.svg": "/fire-grant/static/media/settingPhone.ab8d43da18ca38efae50a58347cefb54.svg",
+    "static/media/systemControl.svg": "/fire-grant/static/media/systemControl.b2660f843031ea5fe3b78fcea2cfd75b.svg",
+    "static/media/electricalCircuit.svg": "/fire-grant/static/media/electricalCircuit.9aa7ae15a40137c343ca591244318920.svg",
+    "static/media/settingServer.svg": "/fire-grant/static/media/settingServer.3116bd48e7d8321ead1f63331ceb661b.svg",
+    "static/media/installationText.svg": "/fire-grant/static/media/installationText.2251200928b937522b214a468d8d7690.svg",
+    "static/media/settingRouter.svg": "/fire-grant/static/media/settingRouter.19263cfbb1c99b0ddf69ba73ae4fd1f4.svg",
+    "static/media/fiberCable.svg": "/fire-grant/static/media/fiberCable.710506779a8e6c24eadde1c0cb63cefa.svg",
+    "static/media/settingCloudDB.svg": "/fire-grant/static/media/settingCloudDB.35b6e9d276eb015bf172d41be39e680f.svg",
+    "static/media/settingPrinter.svg": "/fire-grant/static/media/settingPrinter.1b17f0595c645185196f8b5d60549992.svg",
+    "static/media/moreServices.svg": "/fire-grant/static/media/moreServices.5541d31e672e97c11e17cdd7e7475251.svg",
+    "static/media/carAdv.svg": "/fire-grant/static/media/carAdv.02874b7608277a0124d80953c5791c5b.svg",
+    "static/media/briefcase.svg": "/fire-grant/static/media/briefcase.b784787e5676f4aaa4f2365bd4ba34a5.svg",
+    "static/media/documentAdv.svg": "/fire-grant/static/media/documentAdv.06cf5f501c680c8d519ab6b7ece33454.svg",
+    "index.html": "/fire-grant/index.html",
+    "static/media/certifiedAdv.svg": "/fire-grant/static/media/certifiedAdv.247a8e242997c8decc433daaa328143b.svg",
+    "static/media/settingWiFi.svg": "/fire-grant/static/media/settingWiFi.c427a2ac2aea4994623cb25d39779594.svg",
+    "static/media/settingEmail.svg": "/fire-grant/static/media/settingEmail.e648640798a41c5cc6fa2f3e8977d27f.svg",
+    "static/media/roubleADv.svg": "/fire-grant/static/media/roubleADv.cc5c864bb08e744caae678faa5717826.svg",
+    "static/media/cctv.svg": "/fire-grant/static/media/cctv.83afb32af476515a4d7952df9631d951.svg",
+    "static/media/resourcesAdv.svg": "/fire-grant/static/media/resourcesAdv.c1647cd3c2e2b4c3f2419cc2e3c24841.svg",
+    "main.e35827a3.css.map": "/fire-grant/static/css/main.e35827a3.css.map",
+    "main.02e46ac0.js.map": "/fire-grant/static/js/main.02e46ac0.js.map",
+    "787.9891e9eb.chunk.js.map": "/fire-grant/static/js/787.9891e9eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e35827a3.css",
+    "static/js/main.02e46ac0.js"
+  ]
+}
