@@ -14,10 +14,10 @@ function App() {
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       <Header/>
         <Routes>
-          <Route path="/" element={ <NoLimit /> }/>
-          <Route path="/periodicServices" element={ <PeriodicServices /> }/>
-          <Route path="/installation" element={ <Installation /> }/>
-          <Route path="/about" element={ <About /> }/>
+          <Route path="/fire-grant" element={ <NoLimit /> }/>
+          <Route path="/fire-grant/periodicServices" element={ <PeriodicServices /> }/>
+          <Route path="/fire-grant/installation" element={ <Installation /> }/>
+          <Route path="/fire-grant/about" element={ <About /> }/>
         </Routes>
       <Footer/>
     </div>

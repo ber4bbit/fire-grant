@@ -1,9 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
-import './header.css'
-import companyLogo from'./companyLogo.png'
-import logo from './logo.svg'
+import './header.css';
+import logo from './logo.svg';
 
 class Header extends React.Component {
 
@@ -20,15 +19,15 @@ class Header extends React.Component {
         return (
             <>
             <div className='header-container'>
-                <NavLink to='/'>
+                <NavLink to='/fire-grant' onClick={ () => document.documentElement.scrollTop = 0 }>
                     <img src={logo} alt='Here must be logo' style={{width: '76px', height: '120px', marginLeft: '144px'}}></img>
                 </NavLink>
                 <nav className='header-container__nav-menu'>
                     <ul className='menu'>
-                        <li><NavLink to='/' className='styledLink'>Безлимитное сопровождение</NavLink></li>
-                        <li><NavLink to='/periodicServices' className='styledLink'>Периодические услуги</NavLink></li>
-                        <li><NavLink to='/installation' className='styledLink'>Проектирование и монтаж сетей</NavLink></li>
-                        <li><NavLink to='/about' className='styledLink'>О компании</NavLink></li>
+                        <li><NavLink to='/fire-grant' className='styledLink' onClick={ () => document.documentElement.scrollTop = 0 }>Безлимитное сопровождение</NavLink></li>
+                        <li><NavLink to='/fire-grant/periodicServices' className='styledLink' onClick={ () => document.documentElement.scrollTop = 0 }>Периодические услуги</NavLink></li>
+                        <li><NavLink to='/fire-grant/installation' className='styledLink' onClick={ () => document.documentElement.scrollTop = 0 }>Проектирование и монтаж сетей</NavLink></li>
+                        <li><NavLink to='/fire-grant/about' className='styledLink' onClick={ () => document.documentElement.scrollTop = 0 }>О компании</NavLink></li>
                     </ul>
                 </nav>
                 <div className='header-rightSide'>
@@ -47,10 +46,10 @@ class Header extends React.Component {
                 <div className="burger-menu">
                     <nav>
                         <ul className="burger-list">
-                            <li><NavLink to='/' className='burger-link'>Безлимитное сопровождение</NavLink></li>
-                            <li><NavLink to='periodicServices' className='burger-link'>Периодические услуги</NavLink></li>
-                            <li><NavLink to='installation' className='burger-link'>Проектирование и монтаж сетей</NavLink></li>
-                            <li><NavLink to='about' className='burger-link'>О компании</NavLink></li>
+                            <li><NavLink to='/fire-grant' className='burger-link'>Безлимитное сопровождение</NavLink></li>
+                            <li><NavLink to='/fire-grant/periodicServices' className='burger-link'>Периодические услуги</NavLink></li>
+                            <li><NavLink to='/fire-grant/installation' className='burger-link'>Проектирование и монтаж сетей</NavLink></li>
+                            <li><NavLink to='/fire-grant/about' className='burger-link'>О компании</NavLink></li>
                         </ul>
                     </nav>
                 </div>

@@ -41,3 +41,14 @@
     margin-right: 36px;
     padding: 0 36px;
 }
+
+.question-arrow {
+    width: 25px;
+    height: 25px;
+
+    transition: all .3s;
+}
+
+.question-arrow__rotate {
+    transform: rotate(180deg);
+}

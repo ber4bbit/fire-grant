@@ -39,8 +39,8 @@ const NoLimit = () => {
                     </h2>
                     <div className="question wow animate__animated animate__fadeInUp">
                         <div className="question-title">
-                            <img src={expArrow} alt="Here must be expand arrow" style={{ width: '25px', height: '25px' }} onClick={ () => setShowFirst(!showFirst) }/>
-                            <p onClick={ () => setShowFirst(!showFirst) }>Что такое ИТ-аутсорсинг?</p>
+                            <img src={expArrow} alt="Here must be expand arrow" className='question-arrow' onClick={ event => { event.target.classList.toggle('question-arrow__rotate'); setShowFirst(!showFirst) } }/>
+                            <p onClick={ () => { Array.from(document.getElementsByClassName('question-arrow'))[0].classList.toggle('question-arrow__rotate'); setShowFirst(!showFirst) } }>Что такое ИТ-аутсорсинг?</p>
                         </div>
                         <CSSTransition in={showFirst} timeout={300} classNames='alert' unmountOnExit>
                             <div className="question-body">
@@ -53,8 +53,8 @@ const NoLimit = () => {
                     </div>
                     <div className="question wow animate__animated animate__fadeInUp">
                         <div className="question-title">
-                            <img src={expArrow} alt="Here must be expand arrow" style={{ width: '25px', height: '25px' }} onClick={ () => setShowSec(!showSec) }/>
-                            <p onClick={ () => setShowSec(!showSec) }>Что входит в договор?</p>
+                            <img src={expArrow} alt="Here must be expand arrow" className='question-arrow' onClick={ event => { event.target.classList.toggle('question-arrow__rotate'); setShowSec(!showSec) } }/>
+                            <p onClick={ () => { Array.from(document.getElementsByClassName('question-arrow'))[1].classList.toggle('question-arrow__rotate'); setShowSec(!showSec) } }>Что входит в договор?</p>
                         </div>
                         <CSSTransition in={showSec} timeout={300} classNames='alert' unmountOnExit>
                             <div className="question-body">
@@ -68,8 +68,8 @@ const NoLimit = () => {
                     </div>
                     <div className="question wow animate__animated animate__fadeInUp">
                         <div className="question-title">
-                            <img src={expArrow} alt="Here must be expand arrow" style={{ width: '25px', height: '25px' }} onClick={ () => setShowThird(!showThird) }/>
-                            <p onClick={ () => setShowThird(!showThird) }>Какие ограничения по договору?</p>
+                            <img src={expArrow} alt="Here must be expand arrow" className='question-arrow' onClick={ event => { event.target.classList.toggle('question-arrow__rotate'); setShowThird(!showThird) } }/>
+                            <p onClick={ () => { Array.from(document.getElementsByClassName('question-arrow'))[2].classList.toggle('question-arrow__rotate'); setShowThird(!showThird) } }>Какие ограничения по договору?</p>
                         </div>
                         <CSSTransition in={showThird} timeout={300} classNames='alert' unmountOnExit>
                             <div className="question-body">
@@ -82,8 +82,8 @@ const NoLimit = () => {
                     </div>
                     <div className="question wow animate__animated animate__fadeInUp">
                         <div className="question-title">
-                            <img src={expArrow} alt="Here must be expand arrow" style={{ width: '25px', height: '25px' }} onClick={ () => setShowFourth(!showFourth) }/>
-                            <p onClick={ () => setShowFourth(!showFourth) }>Как меняется стоимость договора?</p>
+                            <img src={expArrow} alt="Here must be expand arrow" className='question-arrow' onClick={ event => { event.target.classList.toggle('question-arrow__rotate'); setShowFourth(!showFourth) } }/>
+                            <p onClick={ () => { Array.from(document.getElementsByClassName('question-arrow'))[3].classList.toggle('question-arrow__rotate'); setShowFourth(!showFourth) } }>Как меняется стоимость договора?</p>
                         </div>
                         <CSSTransition in={showFourth} timeout={300} classNames='alert' unmountOnExit>
                             <div className="question-body">
@@ -96,8 +96,8 @@ const NoLimit = () => {
                     </div>
                     <div className="question wow animate__animated animate__fadeInUp">
                         <div className="question-title">
-                            <img src={expArrow} alt="Here must be expand arrow" style={{ width: '25px', height: '25px' }} onClick={ () => setShowFifth(!showFifth) }/>
-                            <p onClick={ () => setShowFifth(!showFifth) }>Что такое пробный период?</p>
+                            <img src={expArrow} alt="Here must be expand arrow" className='question-arrow' onClick={ event => { event.target.classList.toggle('question-arrow__rotate'); setShowFifth(!showFifth) } }/>
+                            <p onClick={ () => { Array.from(document.getElementsByClassName('question-arrow'))[4].classList.toggle('question-arrow__rotate'); setShowFifth(!showFifth) } }>Что такое пробный период?</p>
                         </div>
                         <CSSTransition in={showFifth} timeout={300} classNames='alert' unmountOnExit>
                             <div className="question-body">

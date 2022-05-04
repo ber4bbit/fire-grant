@@ -11,33 +11,45 @@ class About extends React.Component {
     links = document.getElementsByClassName('styledLink');
     linksArr = Array.from(this.links);
 
-    listener = () => {
-        let scrollTop = window.scrollY;
-        if (scrollTop >= 402) {
-            this.header.classList.remove('header-container__about');
-            this.btn.classList.remove('customButton__about');
-            this.linksArr.forEach(elem => elem.classList.remove('styledLink__about'));
+    scrollListener = () => {
+        const header = document.querySelector('.header-container');
+        const btn = document.querySelector('.customButton');
+        const links = document.getElementsByClassName('styledLink');
+        const linksArr = Array.from(links);
+        let scrollHeight = window.scrollY;
+        if (scrollHeight >= 402) {
+            header.classList.remove('header-container__about');
+            btn.classList.remove('customButton__about');
+            linksArr.forEach(elem => elem.classList.remove('styledLink__about'));
         } else {
-            this.header.classList.add('header-container__about');
-            this.btn.classList.add('customButton__about');
-            this.linksArr.forEach(elem => elem.classList.add('styledLink__about'));
+            header.classList.add('header-container__about');
+            btn.classList.add('customButton__about');
+            linksArr.forEach(elem => elem.classList.add('styledLink__about'));
         }
     }
 
     componentDidMount() {
-        if (document.location.pathname === '/about') {
-            this.header.classList.toggle('header-container__about');
-            this.btn.classList.toggle('customButton__about');
-            this.linksArr.forEach(elem => elem.classList.toggle('styledLink__about'));
-            window.addEventListener('scroll', this.listener)
+        const header = document.querySelector('.header-container');
+        const btn = document.querySelector('.customButton');
+        const links = document.getElementsByClassName('styledLink');
+        const linksArr = Array.from(links);
+        if (document.location.pathname === '/fire-grant/about') {
+            header.classList.add('header-container__about');
+            btn.classList.add('customButton__about');
+            linksArr.forEach(elem => elem.classList.add('styledLink__about'));
+            window.addEventListener('scroll', this.scrollListener);
         }
     }
 
     componentWillUnmount() {
-        this.header.classList.toggle('header-container__about');
-        this.btn.classList.toggle('customButton__about');
-        this.linksArr.forEach(elem => elem.classList.remove('styledLink__about'));
-        window.removeEventListener('scroll', this.listener)
+        const header = document.querySelector('.header-container');
+        const btn = document.querySelector('.customButton');
+        const links = document.getElementsByClassName('styledLink');
+        const linksArr = Array.from(links);
+        header.classList.remove('header-container__about');
+        btn.classList.remove('customButton__about');
+        linksArr.forEach(elem => elem.classList.remove('styledLink__about'));
+        window.removeEventListener('scroll', this.scrollListener)
     }
 
     render() {
