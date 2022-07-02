@@ -1,0 +1,31 @@
+@media screen and (max-width: 390px) {
+    * {
+        max-width: 390px;
+        margin: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header-container a img {
+        margin-left: 12px !important;
+    }
+
+    .header-rightSide {
+        margin-left: 0;
+    }
+
+    .header-rightSide button {
+        display: none;
+    }
+
+    .links-container {
+        margin-left: 52px;
+    }
+
+    .burger-btn {
+        display: block;
+        margin-left: 26px;
+    }
+}

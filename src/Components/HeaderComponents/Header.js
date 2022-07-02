@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import './header.css';
+import '../../style/assets/adaptive.css';
 import logo from './logo.svg';
 
 class Header extends React.Component {
